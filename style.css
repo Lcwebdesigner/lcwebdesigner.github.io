@@ -1,7 +1,13 @@
 *{
     box-sizing:border-box;
 }
-
+.profile{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+}
 body{
     font-family:Arial, sans-serif;
     margin:0;
