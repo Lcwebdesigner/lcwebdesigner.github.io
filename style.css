@@ -1,21 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+
 body{
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
     margin:0;
-    background:#f4f7fb;
-    text-align:center;
+    background:#f1f5f9;
     color:#333;
+    text-align:center;
 }
 
 
 header{
     background:#2563eb;
     color:white;
-    padding:40px 20px;
+    padding:60px 20px;
 }
 
 
-h1{
-    font-size:40px;
+header h1{
+    font-size:45px;
+    margin:10px;
 }
 
 
@@ -26,31 +31,37 @@ section{
 
 h2{
     color:#2563eb;
+    font-size:28px;
 }
 
 
 .card{
     background:white;
-    margin:15px auto;
-    padding:20px;
     max-width:500px;
-    border-radius:10px;
-    box-shadow:0 4px 10px #ccc;
+    margin:20px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+.card h3{
+    color:#2563eb;
 }
 
 
 a{
-    display:inline-block;
     background:#2563eb;
     color:white;
-    padding:12px 20px;
+    padding:12px 25px;
+    border-radius:8px;
     text-decoration:none;
-    border-radius:5px;
+    display:inline-block;
 }
 
 
 footer{
-    background:#222;
+    background:#111827;
     color:white;
-    padding:15px;
+    padding:20px;
 }
