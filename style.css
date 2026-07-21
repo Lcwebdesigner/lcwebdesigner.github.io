@@ -66,7 +66,52 @@ h2{
 .card h3{
     color:#2563eb;
 }
+html{
+    scroll-behavior:smooth;
+}
 
+
+nav{
+    background:#111827;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+
+nav a{
+    background:#2563eb;
+    color:white;
+    padding:10px 18px;
+    margin:5px;
+    border-radius:5px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+
+nav a:hover{
+    background:#1d4ed8;
+}
+
+
+.hire-btn{
+    display:inline-block;
+    margin-top:20px;
+    background:white;
+    color:#2563eb;
+    padding:12px 30px;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+.hire-btn:hover{
+    background:#111827;
+    color:white;
+}
 
 a{
     background:#2563eb;
