@@ -146,14 +146,18 @@ h2{
     border-radius:15px;
     box-shadow:0 5px 15px rgba(0,0,0,0.15);
 }
-.card a{
-    display:inline-block;
-    background:#2563eb;
-    color:white;
-    padding:12px 25px;
-    border-radius:8px;
-    text-decoration:none;
-    margin-top:15px;
+.card a {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.card a:hover {
+    background: #1d4ed8;
 }
 
 
