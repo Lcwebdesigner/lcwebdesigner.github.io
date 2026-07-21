@@ -2,11 +2,12 @@
     box-sizing:border-box;
 }
 .profile{
-    width:150px;
-    height:150px;
+    width:180px;
+    height:180px;
     border-radius:50%;
     object-fit:cover;
     border:5px solid white;
+    margin-top:20px;
 }
 body{
     font-family:Arial, sans-serif;
