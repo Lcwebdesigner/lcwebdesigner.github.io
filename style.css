@@ -16,6 +16,91 @@ body{
     text-align:center;
 }
 
+/* Projects */
+
+.project-card{
+    background:white;
+    width:320px;
+    margin:20px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+.project-card h3{
+    color:#2563eb;
+}
+
+.project-card p{
+    color:#555;
+}
+
+.project-card a,
+button{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    border:none;
+    margin-top:15px;
+}
+
+
+/* Skills */
+
+.skill-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.skill-card{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+
+/* Contact */
+
+#contact{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.contact-btn{
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    display:inline-block;
+    margin:10px;
+}
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+.project-card,
+.skill-card{
+    width:85%;
+}
+
+nav a{
+    padding:8px;
+    font-size:12px;
+}
+
+}
 nav{
     background:#111827;
     padding:15px;
