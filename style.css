@@ -236,6 +236,29 @@ footer{
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
     transition:0.3s;
 }
+.social-icons {
+    margin-top: 25px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 8px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    background: #111827;
+}
 
 .skill-card:hover{
     transform:translateY(-10px);
